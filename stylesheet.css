@@ -3,24 +3,80 @@
     padding: 0;
     box-sizing: border-box;
 }
-header{
-    background-color: orangered;
+
+/* Header */
+.header{
+    background-color: rgb(96, 141, 238);
+    height:265px;
+    width: 1170px;
+}
+.container{
+    max-width: 1170px;
     width: 80%;
     margin: auto;
-    height: 100px;
-   
-}
-.nav-header{
-   display: flex;
-   height: 100px;
-}
-.header-small{
-height: 100px;
-flex-grow: 0.2;
+    padding: 1rem;
+    
 }
 
-.header-big{
-background-color: yellow;
-flex-grow: 2;
-height: 100px;
+.row-prima, .row-seconda{
+    display: flex;
+    max-width: 1170px;
+    width: 100%;
+    margin: auto;
 }
+
+.col-2{
+    width: 20%;
+    background-color: rgb(159, 50, 66);
+    padding: 1rem;
+
+
+}
+.col-8{
+    width: 60%;
+    background-color: rgb(229, 23, 54);
+    padding: 1rem;
+
+
+}
+/* Fine Header */
+
+/* Banner */
+.banner{
+    margin: 0 auto;
+    background-color: rgba(94, 94, 250, 0.459);
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+}
+.row-seconda{
+    min-height: 150%;
+    background-color: gray;
+    width: 60%;
+    height: 100px;
+
+}
+/* Fine Banner */
+
+/* Prima sezione */
+.container-section1{
+background-color: orange;
+min-height: 200px;
+}
+.row{
+background-color: burlywood;
+width:80%;
+height:160px;
+margin:auto;
+display: flex;
+
+}
+.col{
+
+}
+.card{
+
+}
+
+/* Fine prima sezione */
+
