@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: orangered;
+    width: 80%;
+    margin: auto;
+    height: 100px;
+   
+}
+.nav-header{
+   display: flex;
+   height: 100px;
+}
+.header-small{
+height: 100px;
+flex-grow: 0.2;
+}
+
+.header-big{
+background-color: yellow;
+flex-grow: 2;
+height: 100px;
+}
